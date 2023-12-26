@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teapoz_Final</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/sidebar.css">
+    <link rel="stylesheet" href="/src/css/sliders.css">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="sidebar" id="sidebar">
+            <span class="close-btn" onclick="closeSidebar()">&#10006;</span>
+            <img src="/src/image/logo.svg" alt="">
+            
+            <div class="nav">
+                <button class="dropdown-btn">HOME
+                    <i class="fa-solid fa-chevron-down" style="color: #818181;"></i>
+                </button>
+                  <div class="dropdown-container">
+                    <a href="#">Home 1</a>
+                    <a href="#">Home 2</a>
+                    <a href="#">Home 3</a>
+                  </div>
+                
+                <button class="dropdown-btn">SHOP
+                    <i class="fa-solid fa-chevron-down" style="color: #818181;"></i>
+                </button>
+                  <div class="dropdown-container">
+                    <a href="#">Shop 1</a>
+                    <a href="#">Shop 2</a>
+                    <a href="#">Shop 3</a>
+                  </div>
+                  
+                <a href="#about">SALE</a>
+
+                <button class="dropdown-btn">BLOG
+                    <i class="fa-solid fa-chevron-down" style="color: #818181;"></i>
+                </button>
+                  <div class="dropdown-container">
+                    <a href="#">Blog 1</a>
+                    <a href="#">Blog 2</a>
+                    <a href="#">Blog 3</a>
+                  </div>
+
+                <button class="dropdown-btn">PAGES
+                    <i class="fa-solid fa-chevron-down" style="color: #818181;"></i>
+                </button>
+                  <div class="dropdown-container">
+                    <a href="#">Pages 1</a>
+                    <a href="#">Pages 2</a>
+                    <a href="#">Pages 3</a>
+                  </div>
+
+                <a href="#about">CONTACT</a>
+
+              </div>
+            
+            
+          
+           
+        </div>
+        
+        <div class="wrapper">
+
+            <header>
+                
+                <div class="content">
+                    <span class="open-btn" onclick="openSidebar()">&#9776;</span>
+                </div>
+
+                <div class="logo">
+                    <img src="/src/image/logo.svg" alt="">
+                </div>
+
+                <div class="searchbar">
+                    <input  class="search-input" type="text" placeholder="What are you looking for?">
+                    <button class="search-btn">SEARCH</button>
+                </div>
+
+                <div class="action">
+
+                    <div class="user">
+                        <i class="fa-regular fa-user icon"></i>
+                        <h3>Login/Register</h3>
+                    </div>
+
+                    <div class="favorite">
+                        <i class="fa-regular fa-heart icon"></i>
+                    </div>
+
+                    <div class="shopping-cart">
+                        <i class="fa-solid fa-bag-shopping icon"></i>
+                    </div>
+
+                </div>
+                
+            </header>
+ 
+        </div>
+        
+    </div>
+
+    <!-- Slider main container -->
+    <div class="container-2">
+    <div class="btn-container">
+      <button class="prev-btn" onclick="prevSlide()"><i class="fa-solid fa-circle-chevron-left" style="color: hsl(0, 0%, 96%);"></i></button>
+      <button class="next-btn" onclick="nextSlide()"><i class="fa-solid fa-circle-chevron-right" style="color: #F6F6F6;"></i></button>
+    </div>
+  
+    <div class="sliders-container">
+      <div class="sliders" id="slider">
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-1.jpg" alt="">
+                    <span>Black tea</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-2.jpg" alt="">
+                    <span>White tea</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-3.jpg" alt="">
+                    <span>Matcha</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-4.jpg" alt="">
+                    <span>Oolong</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-5.jpg" alt="">
+                    <span>Mate</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-6.jpg" alt="">
+                    <span>Tea Bags</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-7.jpg" alt="">
+                    <span>Loose tea</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-8.jpg" alt="">
+                    <span>Green tea</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-9.jpg" alt="">
+                    <span>Gift sets</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-10.jpg" alt="">
+                    <span>Teawear</span>
+                </a>
+            </div>
+            <div class="slider-cart">
+                <a href=""><img src="/src/image/product/ft4_cate-11.jpg" alt="">
+                    <span>floral teas</span>
+                </a>
+            </div>
+            
+        </div>
+    
+    </div>
+     
+    </div>
+
+   
+</body>
+<script src="/src/js/sidebar.js"></script>
+<script src="/src/js/sliders.js"></script>
+
+</html>

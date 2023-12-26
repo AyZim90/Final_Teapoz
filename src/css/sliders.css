@@ -1,0 +1,86 @@
+.container-2 {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+
+  /*Btn prev-next*/
+  
+  .btn-container {
+    top: 79px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    background: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .btn-container button:hover .fa-circle-chevron-left,
+  .btn-container button:hover .fa-circle-chevron-right {
+  color: #86bc4f !important;
+}
+/*Sliders*/
+
+  .sliders-container {
+    margin-left: 63px;
+    justify-content: center;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .sliders {
+    gap: 10px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .sliders img {
+  object-fit: cover;
+  }
+  
+  /*Cart*/
+
+  .slider-cart {
+    position: relative;
+    overflow: hidden;
+  }
+  .slider-cart {
+    flex: 0 0 calc(19.33% - 10px);
+  }
+  .slider-cart a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .slider-cart span:hover{
+    color: #86bc4f;
+  }
+  
+  .slider-cart img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider-cart a:hover img {
+    transform: scale(1.1); /* Масштабирование изображения при наведении */
+  }
+  
+  .slider-cart span {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    text-decoration: none;
+    color: #194a33;
+    font-size: 14px;
+  }
+  
+  
