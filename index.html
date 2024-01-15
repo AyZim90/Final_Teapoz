@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teapoz_Final</title>
-    <!-- CSS -->
+<!-- CSS -->
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/sidebar.css">
     <link rel="stylesheet" href="/src/css/sliders.css">
+    <link rel="stylesheet" href="/src/css/sliders-slice.css">
+    <link rel="stylesheet" href="/src/css/product-card.css">
+    <link rel="stylesheet" href="/src/css/bg-img.css">
+    <link rel="stylesheet" href="/src/css/green-side.css">
+    <link rel="stylesheet" href="/src/css/product-card-2.css">
+    <link rel="stylesheet" href="/src/css/grid-area.css">
+    <link rel="stylesheet" href="/src/css/customer-feedback.css">
+    <link rel="stylesheet" href="/src/css/image-gallery.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
     <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
 
@@ -107,13 +117,13 @@
         
     </div>
 
-    <!-- Slider main container -->
+<!-- Slider main container -->
     <div class="container-2">
     <div class="btn-container">
       <button class="prev-btn" onclick="prevSlide()"><i class="fa-solid fa-circle-chevron-left" style="color: hsl(0, 0%, 96%);"></i></button>
       <button class="next-btn" onclick="nextSlide()"><i class="fa-solid fa-circle-chevron-right" style="color: #F6F6F6;"></i></button>
     </div>
-  
+<!-- Card -->
     <div class="sliders-container">
       <div class="sliders" id="slider">
             <div class="slider-cart">
@@ -178,9 +188,840 @@
      
     </div>
 
+<!-- Sliders-slice hover container -->
+<div class="container-3">
+    <div class="slider-slice">
+        <div id="slice">
+            <img src="/src/image/rev_home4_2.jpg" alt="">
+            <div class="text top">Something for every taste </div>
+            <div class="text center">Finest Tea from The origin </div>
+            <div class="text bottom">Sourced from the land of teas by tea masters. </div>
+            <div class="text btn">
+                <button class="discovery-btn"><a href="">Discovery your tea<i class="fa-solid fa-chevron-right" style="margin-left: 5px; font-size: 10px;"></i></a></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Product Card-->
+<div class="container-4">
+    <div class="row">
+        <div class="container-text">
+            <h1>Explore Our Seasonal Favourites</h1>
+            <a href="" class="product-link">
+                View all products<i class="fa-solid fa-chevron-right" style="margin-left: 5px; font-size: 10px;"></i>
+                <div class="horizontal-line"></div>
+              </a>
+              
+            <div class="product-btn">
+              <button class="left-btn"><i class="fa-solid fa-chevron-left"></i></button>
+              <button class="right-btn"><i class="fa-solid fa-chevron-right"></i></i></button>
+            </div>
+        </div>
+        <div class="container-slider">
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            <div class="card">
+
+                <div class="sales">
+                    <span class="product-new-label">off</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+
+                <div class="product-image">
+                    <a href="#">
+                        <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                        <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                    </a>
+                    <ul class="social">
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                      <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                    <div class="price-addcart">
+                      <div class="price">$16.00</div>
+                      <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                </div>
+
+    
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+<!--bg-img-->
+
+<div class="container-5">
+    <div class="bg-img-container">
+        <img src="/src/image/bg-img/h4-bg1.jpg" alt="">
+        <div class="overlay-img">
+            <img src="/src/image/bg-img/h4-sale.png" alt="">
+        </div>
+       
+        <div class="bg-img-content">
+            <p>25% SITEWIDE SAVINGS</p>
+            <h1>Best Tea for Summer</h1>
+            <h2>Save 25% sitewide on beautifully packaged gift sets, tea collections, and exquisite accessories Moms adore.</h2>
+            <button><a href="">Shop our teas</a><i class="fa-solid fa-chevron-right" style="margin-left: 5px; font-size: 10px;"></i></button>
+        </div>
+
+    </div>
+
+</div>
+
+<!--green-side-->
+<div class="container-6">
+    <div class="icons-container">
+        <div class="icons">
+            <span class="img-bg">
+                <img src="/src/image/icon/delivery.png" alt="">
+            </span>
+            <div class="icon-text">
+                <h3>Free Shipping </h3>
+                <p>On orders above 299 in India. Delivering worldwide! </p>
+            </div>
+           
+        </div>
+        <div class="icons">
+            <span class="img-bg">
+                <img src="/src/image/icon/championship.png" alt="">
+            </span>
+            <div class="icon-text">
+                <h3>Steep Time Rewards</h3>
+                <p>Collect points and earn rewards for your next order</p>
+            </div>
+           
+        </div>
+        <div class="icons">
+            <span class="img-bg">
+                <img src="/src/image/icon/tea.png" alt="">
+            </span>
+            <div class="icon-text">
+                <h3>Free Samples</h3>
+                <p>Relish the happiness of 3 tea samples with your order.</p>
+            </div>
+           
+        </div>
+        <div class="icons">
+            <span class="img-bg">
+                <img src="/src/image/icon/giftbox.png" alt="">
+            </span>
+            <div class="icon-text">
+                <h3>Refer & Earn</h3>
+                <p>Give a gift of good health and earn while you’re at it. </p>
+            </div>
+           
+        </div>
+      
+    </div>
+      
+</div>
+
+<!--Product card-2-->
+<div class="container-7">
+    <div class="product-area">
+        <div class="product-area-title">
+            <h2>Gifts for Tea Lovers</h2>
+            <p>Gifts for Tea Lovers Our range of gift boxes are elegantly packed, gorgeous to look at, and packed with the freshest indian teas.</p>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="card">
+
+            <div class="sales">
+                <span class="product-new-label">off</span>
+                <span class="product-discount-label">20%</span>
+            </div>
+    
+            <div class="product-image">
+                <a href="#">
+                    <img decoding="async" class="pic-1" src="src/image/product/product_29_1-600x600.jpg">
+                    <img decoding="async" class="pic-2" src="src/image/product/product_29_2-600x600.jpg">
+                </a>
+                <ul class="social">
+                  <li><a href="" data-tip="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                  <li><a href="" data-tip="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+                  <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                </ul>
+            </div>
+    
+            <ul class="rating">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star disable"></li>
+            </ul>
+    
+            <div class="product-content">
+                <h3 class="title"><a href="#">Organic Dandelion &amp; Peach Naturally</a></h3>
+                <div class="price-addcart">
+                  <div class="price">$16.00</div>
+                  <a class="add-to-cart" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </div>
+    
+    
+        </div>
+    </div>
+    <a href="" class="product-link" style="left: 47%;">
+        View all products<i class="fa-solid fa-chevron-right" style="margin-left: 5px; font-size: 10px;"></i>
+        <div class="horizontal-line"></div>
+      </a>
+</div>
+
+<!--Grid-area-->
+<div class="container-8" style="background-color: #F6F6F6;">
+    <div class="product-area" >
+        <div class="product-area-title">
+            <h2>Your Exercise Boost with Benefits</h2>
+            <p>Our blends don’t sacrifice well-being for function.</p>
+        </div>
+    </div>
+
+    <div class="title-container">
+        <div class="title-column">
+            
+            <div class="title-content">
+                <div class="icons-title-content">
+                    <span class="icon-title-img">
+                        <img src="/src/image/icon/plug.png" alt="">
+                    </span>
+                    <div class="title-text">
+                        <h3>Energize without the crash</h3>
+                        <p>Sed cras ornare arcu dui vivamus arcu felis bibendum. Pellentesque habitant morbi...</p>
+                    </div>
+                   
+                </div>
+        
+            </div>
+            <div class="title-content">
+                <div class="icons-title-content">
+                    <span class="icon-title-img">
+                        <img src="/src/image/icon/muscle.png" alt="">
+                    </span>
+                    <div class="title-text">
+                        <h3>Have a better workout</h3>
+                        <p>Sed cras ornare arcu dui vivamus arcu felis bibendum. Pellentesque habitant morbi...</p>
+                    </div>
+                   
+                </div>
+        
+            </div>
+            <div class="title-content">
+                <div class="icons-title-content">
+                    <span class="icon-title-img">
+                        <img src="/src/image/icon/guts.png" alt="">
+                    </span>
+                    <div class="title-text">
+                        <h3>Support your gut </h3>
+                        <p>Sed cras ornare arcu dui vivamus arcu felis bibendum. Pellentesque habitant morbi...</p>
+                    </div>
+                   
+                </div>
+        
+            </div>
+    
+        </div>
+       
+        <div class="title-image">
+            <img src="/src/image/bg-img/h4-img1.jpg" alt="">
+            <div class="overlay-img-title">
+                <img src="/src/image/bg-img/h4-img5.png" alt="">
+            </div>
+            <div class="overlay-img-title-2">
+                <img src="/src/image/bg-img/h4-img3.png" alt="">
+            </div>
+        </div>
+
+        <div class="title-column">
+            
+            <div class="title-content">
+                <div class="icons-title-content">
+                    <span class="icon-title-img">
+                        <img src="/src/image/icon/green-tea.png" alt="">
+                    </span>
+                    <div class="title-text">
+                        <h3>Created with you in mind</h3>
+                        <p>Sed cras ornare arcu dui vivamus arcu felis bibendum. Pellentesque habitant morbi...</p>
+                    </div>
+                   
+                </div>
+        
+            </div>
+            <div class="title-content">
+                <div class="icons-title-content">
+                    <span class="icon-title-img">
+                        <img src="/src/image/icon/heart.png" alt="">
+                    </span>
+                    <div class="title-text">
+                        <h3>We love the earth</h3>
+                        <p>Sed cras ornare arcu dui vivamus arcu felis bibendum. Pellentesque habitant morbi...</p>
+                    </div>
+                   
+                </div>
+        
+            </div>
+            <div class="title-content">
+                <div class="icons-title-content">
+                    <span class="icon-title-img">
+                        <img src="/src/image/icon/herbal-tea.png" alt="">
+                    </span>
+                    <div class="title-text">
+                        <h3>Real flavor always</h3>
+                        <p>Sed cras ornare arcu dui vivamus arcu felis bibendum. Pellentesque habitant morbi...</p>
+                    </div>
+                   
+                </div>
+        
+            </div>
+    
+        </div>
+        
+    </div>
+    
+</div>
+
+<!--Customer feedback-->
+<div class="container-9">
+    <div class="product-area" >
+        <div class="product-area-title">
+            <h2>Over 3 Million+ Consumers & Counting!</h2>
+            <p>200,000+ Reviews (<span style="color: #8CBC71;">4.9/5 </span> Stars). Here are some of our favorites!</p>
+        </div>
+    </div>
+    <div class="review-container">
+        <!-- Clients Review Section -->
+        <div class="reviewSection">
+
+        <!-- Clients Review-1 Section Starts from Here  -->
+            <div class="reviewItem">
+                <div class="top">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+
+                    </ul>
+                </div>
+                <article>
+                  <p class="review">“Fast delivery, excellent packaging and high quality products, what else can one wish for. The tea has a lovely flavour. This is a must go place if you are interested in or want to discover teas!</p>
+                        <div class="clientImage">
+                          <img src="/src/image/avatar/avatar-4.png" alt="">
+                          <div class="clientTitle">
+                            <span>Wendy Rose</span>
+                            <p>January 2022</p>
+                          </div>
+                          
+                      </div>
+                    
+                </article>
+            </div>
+
+        <!-- Clients Review-2 Section Starts from Here  -->
+        <div class="reviewItem">
+          <div class="top">
+              <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+
+              </ul>
+          </div>
+          <article>
+            <p class="review">“Lovely, clean environment and delicious bubble teas! Very cozy as well – I would recommend to everyone.”</p>
+                  <div class="clientImage">
+                    <img src="/src/image/avatar/avatar-1.png" alt="">
+                    <div class="clientTitle">
+                      <span>Eleonora L.</span>
+                      <p>June 2022</p>
+                    </div>
+                    
+                </div>
+              
+          </article>
+      </div>
+
+        <!-- Clients Review-3 Section Starts from Here  -->
+        <div class="reviewItem">
+          <div class="top">
+              <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+
+              </ul>
+          </div>
+          <article>
+            <p class="review">“A perfect place to visit on a rainy autumn Sunday. The place is clean and new which is great, and they have comfortable couches to sit at. Reasonably priced too. We’ll definitely be coming back!”</p>
+                  <div class="clientImage">
+                    <img src="/src/image/avatar/avatar-2.png" alt="">
+                    <div class="clientTitle">
+                      <span>Linda Reid</span>
+                      <p>July 2022</p>
+                    </div>
+                    
+                </div>
+              
+          </article>
+      </div>
+             <!-- Clients Review-4 Section Starts from Here  -->
+             <div class="reviewItem">
+              <div class="top">
+                  <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+
+                  </ul>
+              </div>
+              <article>
+                <p class="review">“It was a quick, efficient, accurate transaction. The BEST kind, of course! Small offerings for tasting are a great idea. Favorites are available in 16 0z packages, perfect.”</p>
+                      <div class="clientImage">
+                        <img src="/src/image/avatar/avatar-3.png" alt="">
+                        <div class="clientTitle">
+                          <span>Camilla V.</span>
+                          <p>May 2022</p>
+                        </div>
+                        
+                    </div>
+                  
+              </article>
+          </div>
+            <!-- Clients Review-5 Section Starts from Here  -->
+            <div class="reviewItem">
+              <div class="top">
+                  <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+
+                  </ul>
+              </div>
+              <article>
+                <p class="review">“It was a quick, efficient, accurate transaction. The BEST kind, of course! Small offerings for tasting are a great idea. Favorites are available in 16 0z packages, perfect.”</p>
+                      <div class="clientImage">
+                        <img style="padding: 0 5px 3px 5px;" src="/src/image/avatar/teambox-7.jpg" alt="">
+                        <div class="clientTitle">
+                          <span>Jennifer H.</span>
+                          <p>August 2022</p>
+                        </div>
+                        
+                    </div>
+                  
+              </article>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!--Image gallery/widget-container-->
+<div class="container-10">
+
+<div class="image-gallery">
+    <img src="/src/image/image-section/gallery-2.jpg" alt="">
+    <img src="/src/image/image-section/gallery-1.jpg" alt="">
+    <img src="/src/image/image-section/gallery-3.jpg" alt="">
+    <img src="/src/image/image-section/gallery-4.jpg" alt="">
+    <img src="/src/image/image-section/gallery-5.jpg" alt="">
+    <img src="/src/image/image-section/gallery-6.jpg" alt="">
+    <img src="/src/image/image-section/gallery-7.jpg" alt="">
+    <img src="/src/image/image-section/gallery-8.jpg" alt="">
+    <img src="/src/image/image-section/gallery-9.jpg" alt="">
+    <img src="/src/image/image-section/gallery-10.jpg" alt="">
+
+</div>
+
+<div class="modal" id="myModal">
+    <div class="modal-controls-btn">
+        <i class="fa-solid fa-angle-left" id="prevBtn"></i>
+        <i class="fa-solid fa-angle-right" id="nextBtn"></i>
+    </div>
+    <div class="modal-controls-top">
+        <i class="fa-solid fa-expand" id="expandBtn"></i>
+        <i class="fa-solid fa-magnifying-glass" id="zoomBtn"></i>
+        <i class="fa-solid fa-share" id="shareBtn"></i>
+        <i class="fa-solid fa-xmark" id="closeBtn"></i>
+    </div>
+    <img id="modalImg" alt="">
+    <div class="modal-caption" id="caption"></div>
+
+    <div id="shareMenu" style="display: none;">
+        <div class="share">
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-facebook" style="color: #0863F7;"></i>
+                <p>Share on Facebook</p>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-twitter" style="color: #1C96E8;"></i>
+                <p>Share on Twitter</p>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-pinterest" style="color: #E70821;"></i>
+                <p>Pin it</p>
+            </a>
+        </div>
+        
+
+    </div>
+    
+</div>
+
+</div>
+
+<footer>
+<div class="connected">
+    <div class="img-item">
+        <img class="img-left" src="/src/image/bg-img/ft3-decor-300x227.png" alt="">
+        <img class="img-right" src="/src/image/bg-img/ft3-decor2.png" alt="">
+    </div>
+    <div class="product-area">
+        <div class="product-area-title">
+            <h2>Let’s Stay Connected</h2>
+            <p style="width: 71%; margin-left: 85px; ">Sign up for <span style="color: #8CBC71;">10% off </span>and be the first to know about new products, offers, and all the tea.</p>
+        </div>
+    </div>
+    <div class="subscribe">
+        <input  class="subscribe-input" type="text" placeholder="Your email address">
+        <button class="subscribe-btn">SUBSCRIBE</button>
+    </div>
+
+
+</div>
+
+<div class="footer-layout">
+    <div class="logo">
+        <img src="/src/image/logo.svg" alt="">
+    </div>
+    <div class="about">
+        <p>ABOUT</p>
+        <a href="">Company</a>
+        <a href="">FAQs</a>
+        <a href="">Quality</a>
+        <a href="">Gift Cards</a>
+        <a href="">Contact</a>
+    </div>
+    <div class="about">
+        <p>SHOP</p>
+        <a href="">Loose Leaf Tea</a>
+        <a href="">Green Teas</a>
+        <a href="">Packaged Teas</a>
+        <a href="">Teaware</a>
+        <a href="">Tea Gifts</a>
+        <a href="">Iced Tea</a>
+    </div>
+    <div class="about">
+        <p>HELP CENTER</p>
+        <a href="">Delivery Information</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Returns & Refunds</a>
+        <a href="">Privacy Notice</a>
+        <a href="">Shopping</a>
+        <a href="">FAQs</a>
+    </div>
+    <div class="about">
+        <p>GET IN TOUCH</p>
+        <h4>
+            2972 Westheimer Rd. Santa Ana, Illinois 85486
+            support@example.com
+        </h4>
+        <p style="margin-top: 40px; margin-bottom: 5px; text-transform: capitalize;">Need help? Call us</p>
+        <p style="color: #8cbc4f;">+ (406) 555-0120</p>
+    </div>
+
+    
+ 
+
+</div>
+
+<div class="footer-payment">
+    <p>Payments we accept</p>
+    <img src="/src/image/bg-img/payment.png" alt="">
+</div>
+
+<div class="copyright">
+    <div class="left">
+        <p>Copyright © 2023 <a style="color: #8cbc4f;" href="">Teapoz.</a> All rights reserved</p>
+    </div>
+    <div class="right">
+        <div class="action-icons">
+            <div class="social-media-icon">
+               <a href="">
+                <i class="fa-brands fa-facebook"></i>
+               </a> 
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            
+            <button class="back-to-top" onclick="scrollToTop()">Back to top <i class="fa-solid fa-circle-arrow-up"></i></button>
+        </div>
+
+    </div>
+</div>
+
+
+</footer>
+
+
+
+
    
 </body>
 <script src="/src/js/sidebar.js"></script>
 <script src="/src/js/sliders.js"></script>
+<script src="/src/js/sliders-slice.js"></script>
+<script src="/src/js/card-sliders.js"></script>
+<script src="/src/js/image-gallery.js"></script>
+<script src="/src/js/footer.js"></script>
 
 </html>

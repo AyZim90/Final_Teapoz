@@ -3,7 +3,7 @@ let count = 0;
 let autoSlideInterval;
 
 function startAutoSlide() {
-  autoSlideInterval = setInterval(nextSlide, 3000); // Интервал в миллисекундах (здесь 3000 миллисекунд, или 3 секунды)
+  autoSlideInterval = setInterval(nextSlide, 3000);
 }
 
 function stopAutoSlide() {

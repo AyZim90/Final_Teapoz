@@ -156,7 +156,7 @@ header{
 }
 
 .search-btn:hover {
-    background-color: #8fe41f; /* Изменяем цвет фона при наведении на кнопку */
+    background-color: #8fe41f;
 }
 
 .action {

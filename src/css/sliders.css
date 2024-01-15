@@ -45,7 +45,7 @@
   object-fit: cover;
   }
   
-  /*Cart*/
+  /*Card*/
 
   .slider-cart {
     position: relative;
@@ -71,7 +71,7 @@
   }
   
   .slider-cart a:hover img {
-    transform: scale(1.1); /* Масштабирование изображения при наведении */
+    transform: scale(1.1); 
   }
   
   .slider-cart span {

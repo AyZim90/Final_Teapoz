@@ -11,6 +11,7 @@
     transition: 0.5s;
     padding-top: 60px;
     color:grey;
+    z-index: 2;
   }
   
   .sidebar p {
@@ -43,7 +44,6 @@
     margin-left: 27px;
   }
   
-  /* Style the sidenav links and the dropdown button */
   .nav a, .dropdown-btn {
     padding: 6px 8px 6px 0px;
     text-decoration: none;
@@ -59,24 +59,20 @@
     outline: none;
   }
   
-  /* On mouse-over */
   .nav a:hover, .dropdown-btn:hover {
     color: #8fe41f;
   }
   
-  /* Main content */
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
+    margin-left: 200px; 
+    font-size: 20px; 
     padding: 0px 10px;
   }
   
-  /* Add an active class to the active dropdown button */
   .active {
     color: black;
   }
   
-  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
   .dropdown-container {
     display: none;
     margin: 15px 15px 12px 0;
@@ -86,10 +82,8 @@
     border-bottom: 1px solid grey;
   }
   
-  /* Optional: Style the caret down icon */
   .fa-chevron-down {
     float: right;
     padding-right: 8px;
     color: #818181;
   }
- 

@@ -1,0 +1,49 @@
+.container-6 {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .icons-container{
+    padding: 60px 20px;
+    display: flex;
+    background-color: #194A33;
+    width: 100%;
+    height: auto;
+
+  }
+  .icons{
+    flex-shrink: 0;
+    width: 25%;
+    display: flex;
+  }
+  .img-bg{
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    padding: 18px;
+    width: 35%;
+    background-color: #8CBC4F;
+  }
+  .icons img{
+    width: 100%;
+    filter: invert(100%);
+  }
+  .icon-text{
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .icon-text h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .icon-text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+  }

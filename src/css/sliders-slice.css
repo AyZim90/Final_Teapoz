@@ -1,0 +1,123 @@
+.container-3 {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .slider-slice{
+    margin: 0;
+    display: grid;
+    align-items: center;
+  }
+  #slice{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+  }
+#slice img{
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    object-fit: cover;
+  }
+ 
+#slice div {
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    transform: rotateY(-50deg) scale(0.5);
+    opacity: 0;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.71, 0.05, 0.09, 0.91);
+  }
+  
+  #slice.active div {
+    opacity: 1;
+    transform: rotate(0deg) translateY(0);
+    transition-delay: 0.5s;
+  }
+
+
+  /*ТЕКСТ*/
+
+#slice .text {
+  margin-left: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white; 
+  z-index: 2;
+  opacity: 0; 
+  transform: translateY(20px); 
+  transition: opacity 0.6s cubic-bezier(0.71, 0.05, 0.09, 0.91), transform 0.6s cubic-bezier(0.71, 0.05, 0.09, 0.91);
+}
+
+#slice .text.top {
+
+  top: 30%; 
+  text-transform: uppercase;
+  font-size: 15px; 
+  font-weight: bold; 
+}
+#slice .text.center {
+
+  top: 40%; 
+  font-size: 40px; 
+  font-weight: bold; 
+
+}
+
+#slice .text.bottom {
+
+  bottom: 40%; 
+  font-size: 20px; 
+  font-weight: bold; 
+}
+
+#slice.active .text {
+  opacity: 1; 
+  transform: translateY(0); 
+}
+.btn{
+
+  top: 70%;
+  left: 0%;
+}
+
+#slice .discovery-btn{
+  width: 170px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:white;
+  color: black;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+#slice .discovery-btn a{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2857142857;  
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+#slice .discovery-btn:hover {
+  background-color: #8CBC4F;
+  color: white;
+}
+
+#slice .discovery-btn:hover i,
+#slice .discovery-btn:hover a {
+  color: white;
+}
+
