@@ -141,7 +141,9 @@ header{
     width: 120px;
     height: 40px;
     border: none;
-    background-color: #648935;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #8cbc4f;
     color: white;
     letter-spacing: 0.5px;
     font-weight: bold;
@@ -156,7 +158,7 @@ header{
 }
 
 .search-btn:hover {
-    background-color: #8fe41f;
+    background-color: #648935;
 }
 
 .action {
@@ -165,6 +167,10 @@ header{
     width: 25%;
     display: flex;
     justify-content: flex-end;
+}
+.action i{
+  color: black;
+  font-size: 12px;
 }
 
 .icon {
@@ -175,7 +181,7 @@ header{
 }
 
 .icon:hover {
-    color: #8fe41f;
+    color: #648935;
 }
 
 .user {
